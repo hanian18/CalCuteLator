@@ -1,0 +1,33 @@
+
+/*Buttons */
+.numberButton{
+    -fx-background-color: b8c0ff;
+    -fx-border-color: grey;
+    -fx-border-radius: 30;
+}
+.buttonsColor{
+    -fx-background-color: e7c6ff;
+    -fx-border-radius: 30;
+    -fx-border-color: grey;
+    -fx-background-radius:30;
+}
+
+.equalsButtonColor{
+    -fx-background-color: c8b6ff;
+    -fx-border-color: grey;
+}
+.backgroundColor{
+    -fx-background-color: ffd6ff;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+}
+
+.roundness{
+    -fx-background-radius: 30;
+}
+
+.textField{
+    -fx-border-radius: 30;
+    -fx-background-radius: 30;
+    -fx-background-color: f8edeb;
+}

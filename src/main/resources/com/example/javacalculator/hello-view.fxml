@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="442.0" prefWidth="575.0" styleClass="backgroundColor" stylesheets="@../../../style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField alignment="CENTER_RIGHT" layoutX="29.0" layoutY="41.0" prefHeight="51.0" prefWidth="522.0" styleClass="textField" stylesheets="@../../../style.css">
+         <font>
+            <Font name="Comic Sans MS" size="24.0" />
+         </font>
+      </TextField>
+      <Button fx:id="exponentButton" layoutX="29.0" layoutY="175.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="^">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="buttonsColor" />
+         </styleClass>
+      </Button>
+      <Button fx:id="percentButton" layoutX="29.0" layoutY="114.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="\%">
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="buttonsColor" />
+         </styleClass>
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="logButton" layoutX="29.0" layoutY="239.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="log">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="buttonsColor" />
+         </styleClass>
+      </Button>
+      <Button fx:id="sqrButton" layoutX="29.0" layoutY="305.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="√">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="buttonsColor" />
+         </styleClass>
+      </Button>
+      <Button fx:id="onOffButton" layoutX="29.0" layoutY="369.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="75.0" stylesheets="@../../../style.css" text="ON/OFF">
+         <font>
+            <Font size="13.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="buttonsColor" />
+         </styleClass>
+      </Button>
+      <Button fx:id="sinUperation" layoutX="119.0" layoutY="175.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="sin">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="buttonsColor" />
+         </styleClass>
+      </Button>
+      <Button fx:id="factorialFunction" layoutX="119.0" layoutY="114.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="x!">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="buttonsColor" />
+         </styleClass>
+      </Button>
+      <Button fx:id="cosOperation" layoutX="119.0" layoutY="239.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="cos">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="buttonsColor" />
+         </styleClass>
+      </Button>
+      <Button fx:id="tanOperation" layoutX="119.0" layoutY="305.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="tan">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="buttonsColor" />
+         </styleClass>
+      </Button>
+      <Button fx:id="piOperation" layoutX="119.0" layoutY="369.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="π">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="buttonsColor" />
+         </styleClass>
+      </Button>
+      <Button fx:id="sevenButton" layoutX="210.0" layoutY="175.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="7">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="numberButton" />
+         </styleClass>
+      </Button>
+      <Button fx:id="leftParen" layoutX="210.0" layoutY="114.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="(">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="buttonsColor" />
+         </styleClass>
+      </Button>
+      <Button fx:id="fourButton" layoutX="210.0" layoutY="239.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="4">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="numberButton" />
+         </styleClass>
+      </Button>
+      <Button fx:id="oneButton" layoutX="210.0" layoutY="305.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="1">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="numberButton" />
+         </styleClass>
+      </Button>
+      <Button fx:id="zeroButton" layoutX="210.0" layoutY="369.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="0">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="numberButton" />
+         </styleClass>
+      </Button>
+      <Button fx:id="eightButton" layoutX="299.0" layoutY="175.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="8">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="numberButton" />
+         </styleClass>
+      </Button>
+      <Button fx:id="rightParen" layoutX="299.0" layoutY="114.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text=")">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="buttonsColor" />
+         </styleClass>
+      </Button>
+      <Button fx:id="fiveButton" layoutX="299.0" layoutY="239.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="5">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="numberButton" />
+         </styleClass>
+      </Button>
+      <Button fx:id="twoButton" layoutX="299.0" layoutY="305.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="2">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="numberButton" />
+         </styleClass>
+      </Button>
+      <Button fx:id="decimalPoint" layoutX="299.0" layoutY="369.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text=".">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="numberButton" />
+         </styleClass>
+      </Button>
+      <Button fx:id="nineButton" layoutX="386.0" layoutY="175.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="9">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="numberButton" />
+         </styleClass>
+      </Button>
+      <Button fx:id="clrButton" layoutX="386.0" layoutY="114.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="C">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="buttonsColor" />
+         </styleClass>
+      </Button>
+      <Button fx:id="sixButton" layoutX="386.0" layoutY="239.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="6">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="numberButton" />
+         </styleClass>
+      </Button>
+      <Button fx:id="threeButton" layoutX="386.0" layoutY="305.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="3">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="numberButton" />
+         </styleClass>
+      </Button>
+      <Button fx:id="equalButton" layoutX="386.0" layoutY="369.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="=">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="equalsButtonColor" />
+         </styleClass>
+      </Button>
+      <Button fx:id="divideButton" layoutX="476.0" layoutY="175.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="÷">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="buttonsColor" />
+         </styleClass>
+      </Button>
+      <Button fx:id="backspaceButton" layoutX="476.0" layoutY="114.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="&lt;-">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="buttonsColor" />
+         </styleClass>
+      </Button>
+      <Button fx:id="multiplyButton" layoutX="476.0" layoutY="239.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="x">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="buttonsColor" />
+         </styleClass>
+      </Button>
+      <Button fx:id="subtractButton" layoutX="476.0" layoutY="305.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="-">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="buttonsColor" />
+         </styleClass>
+      </Button>
+      <Button fx:id="addButton" layoutX="476.0" layoutY="369.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="75.0" stylesheets="@../../../style.css" text="+">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="roundness" />
+            <String fx:value="buttonsColor" />
+         </styleClass>
+      </Button>
+   </children>
+</AnchorPane>
